@@ -1,2 +1,2 @@
 # Backpropagation_Neural_Network
-IS 1 assignment
+IS1 Assignment
