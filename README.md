@@ -1,2 +1,2 @@
 # Backpropagation_Neural_Network
-yieeee yati ra
+IS 1 assignment
