@@ -41,6 +41,7 @@
             this.backpropBtn = new System.Windows.Forms.Button();
             this.trainBtn = new System.Windows.Forms.Button();
             this.testBtn = new System.Windows.Forms.Button();
+            this.showAllBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -166,11 +167,23 @@
             this.testBtn.UseVisualStyleBackColor = true;
             this.testBtn.Click += new System.EventHandler(this.testBtn_Click);
             // 
+            // showAllBtn
+            // 
+            this.showAllBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showAllBtn.Location = new System.Drawing.Point(781, 64);
+            this.showAllBtn.Name = "showAllBtn";
+            this.showAllBtn.Size = new System.Drawing.Size(343, 86);
+            this.showAllBtn.TabIndex = 14;
+            this.showAllBtn.Text = "Show All Results";
+            this.showAllBtn.UseVisualStyleBackColor = true;
+            this.showAllBtn.Click += new System.EventHandler(this.showAllBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1439, 645);
+            this.Controls.Add(this.showAllBtn);
             this.Controls.Add(this.testBtn);
             this.Controls.Add(this.trainBtn);
             this.Controls.Add(this.backpropBtn);
@@ -206,6 +219,7 @@
         private System.Windows.Forms.Button backpropBtn;
         private System.Windows.Forms.Button trainBtn;
         private System.Windows.Forms.Button testBtn;
+        private System.Windows.Forms.Button showAllBtn;
     }
 }
 
